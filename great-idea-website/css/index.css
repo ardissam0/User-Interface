@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,129 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	margin: 0 auto;
+	width: 70%;
+	margin-top: 50px;
+}
+
+header {
+	display: inline-block;
+	background-color: coral;
+	opacity: 70%;
+	padding: 10px;
+	position: fixed;
+}
+
+header nav a{
+	display: inline-block;
+	margin: 0 30px;
+	color: black;
+}
+
+header .logo {
+	margin-left: 807px;
+	margin-top: -50px;
+	display: inline-block;
+}
+
+header nav a{
+	margin: 0 30px;
+	text-decoration: none;
+}
+
+header nav a:hover{
+	border: 1px solid white;
+	padding: 8px;
+	background-color: black;
+	border-radius: 30px;
+	color: white;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 80px;
+	text-align: center;
+	margin-left: 30%;
+	margin-bottom: 5px;
+}
+
+button {
+	padding: 5px 40px;
+	margin-bottom: 65px;
+	margin-top: 20px;
+	font-size: 15px;
+	margin-left: 42%;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 25px;
+}
+
+button:hover {
+	background-color: coral;
+	color: white;
+}
+.m1 {
+	display: inline-block;
+}
+
+.m1 img {
+	margin-left: 60%;
+	margin-top: 110px;
+}
+
+hr {
+	width: 95%;
+	margin: 0;
+	background-color: black;
+	border: 1px solid black;
+}
+.maincontent {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.p11 {
+	display: inline-block;
+	margin-top: 40px;
+	margin-bottom: 15px;
+	margin-right: 4px;
+	width: 47%;
+}
+
+
+.maincontent2 {
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.maincontent2 img{
+	width: 95%;
+}
+
+.p222{
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 31%;
+	margin-left: 3px;
+}
+
+.contact h3 {
+	margin-top: 50px;
+}
+address {
+	line-height: 1.5;
+}
+.contact p{
+	line-height: 2;
+}
+
+footer {
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 40px;
+}
