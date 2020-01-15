@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 
 body {
 	margin: 0 auto;
-	width: 90%;
+	width: 70%;
 	margin-top: 100px;
 }
 
@@ -77,12 +77,12 @@ header {
 
 header nav a{
 	display: inline-block;
-	margin: 0 20px;
+	margin: 0 30px;
 	color: grey;
 }
 
 header .logo {
-	margin-left: 700px;
+	margin-left: 750px;
 	margin-top: -50px;
 	display: inline-block;
 }
@@ -92,10 +92,8 @@ header nav a{
 }
 h1 {
 	text-transform: uppercase;
-	display: inline-block;
-	width: 100%;
 	font-size: 70px;
-	margin-top: 50px;
+	text-align: center;
 }
 
 button {
@@ -114,6 +112,7 @@ button {
 
 .p11 {
 	display: inline-block;
+	margin-top: 40px;
 	margin-bottom: 30px;
 	margin-right: 3px;
 	width: 47%;
@@ -131,7 +130,8 @@ button {
 }
 
 .p222{
-	dislpay: inline-block;
+	display: inline-block;
+	margin-top: 20px;
 	margin-bottom: 20px;
 	width: 30%;
 }
