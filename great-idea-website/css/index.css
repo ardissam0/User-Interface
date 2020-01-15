@@ -49,7 +49,9 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
 html, body {
@@ -64,3 +66,41 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header nav a{
+	display: inline-block;
+	margin-top: 35px;
+	color: grey;
+}
+
+header .logo {
+	margin-left: 700px;
+	margin-top: 0 30px;
+	display: inline-block;
+}
+
+header nav a{
+	margin: 0 30px;
+}
+.title1 {
+	text-transform: uppercase;
+	display: inline-block;
+	width: 650px;
+}
+
+button {
+	margin-bottom: 30px;
+}
+.img1 {
+	width: 650px;
+	display: inline-block;
+}
+
+.maincontent {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.maincontent p {
+	margin-bottom: 20px;
+}
